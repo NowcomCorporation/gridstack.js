@@ -664,7 +664,7 @@
                     maxHeight = Math.max(maxHeight, n.y + n.height);
                 }
             });
-            self._updateStyles(maxHeight + 10);
+            self._updateStyles(maxHeight + 100);
         }, this.opts.float, this.opts.height);
 
         if (this.opts.auto) {
